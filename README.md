@@ -1,4 +1,3 @@
-# Tuwaiq Academy
 # Data Science BootCamp
 # Traffic Data Exploration
 
