@@ -29,7 +29,16 @@ To run the notebook, you will need:
 
 1. Clone this repository to your local machine.
 2. Ensure you have Python installed. You can download Python from [python.org](https://www.python.org/downloads/).
-3. Install Pandas using pip:
 
 ```bash
+pip install notebook
+```
+```bash
 pip install pandas
+```
+```bash
+pip install seaborn
+```
+```bash
+pip install plotly
+```
