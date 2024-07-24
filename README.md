@@ -1,11 +1,9 @@
 # Data Science BootCamp
 # Traffic Data Exploration
 
-This repository contains a Jupyter Notebook for exploring traffic data using Pandas in Python. The dataset includes various counts of vehicles (cars, bikes, buses, trucks) across different times and days, along with the traffic situation (e.g., normal, heavy).
+This repository contains Jupyter Notebooks for exploring traffic data using Pandas and visualization libraries like Matplotlib, Seaborn, and Plotly in Python. The dataset includes various counts of vehicles (cars, bikes, buses, trucks) across different times and days, along with the traffic situation (e.g., normal, heavy).
 
 ## Dataset
-
-The dataset is stored in a CSV file named `Traffic.csv` and includes the following columns:
 
 - `Time`: Time of the data entry
 - `Date`: Date of the data entry
@@ -19,10 +17,13 @@ The dataset is stored in a CSV file named `Traffic.csv` and includes the followi
 
 ## Prerequisites
 
-To run the notebook, you will need:
+To run the notebooks, you will need:
 
 - Python 3.x
 - Pandas library
+- Matplotlib library
+- Seaborn library
+- Plotly library
 
 ## Setup
 
@@ -34,6 +35,9 @@ pip install notebook
 ```
 ```bash
 pip install pandas
+```
+```bash
+pip install matplotlib
 ```
 ```bash
 pip install seaborn
